@@ -4,40 +4,40 @@
 オリジナルリセット
 ------------------------------*/
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	min-width:1000px;
-	color:#707070;
-	font-family:"游明朝体", YuMincho, "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", serif;
-	line-height:1.75;
+  min-width: 1000px;
+  color: #707070;
+  font-family: "游明朝体", YuMincho, "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", serif;
+  line-height: 1.75;
 }
 
 .typo-bold {
-	font-family:"游明朝体", YuMincho, "游明朝", "Yu Mincho", "游明朝", "Yu Mincho", serif;
-	font-weight:700;
+  font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "游明朝", "Yu Mincho", serif;
+  font-weight: 700;
 }
 
-h1 ,
-h2 ,
-h3 ,
-h4 ,
-h5 ,
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-	font-weight:normal;
+  font-weight: normal;
 }
 
 img {
-	vertical-align:bottom;
+  vertical-align: bottom;
 }
 
 /*------------------------------
 ページ共通で使うインナー
 ------------------------------*/
 .common-inner {
-	margin:0 auto;
-	width:960px;
+  margin: 0 auto;
+  width: 960px;
 }
 
 /*------------------------------
@@ -53,3 +53,13 @@ img {
 /*------------------------------
 フッター
 ------------------------------*/
+
+.page-footer {
+  width: 100%;
+  background-color: #5A442A;
+  color: #fff;
+  font-size: 1.6em;
+  -webkit-font-smoothing: antialiased;
+  padding: 15px 0;
+  text-align: center;
+}
